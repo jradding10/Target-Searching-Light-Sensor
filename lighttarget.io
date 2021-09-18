@@ -1,6 +1,6 @@
 // Target Searching Light Sensor
 //by Jacqueline Radding
-//Finds the brightest source of light
+//Finds the brightest source of light by scanning an area over 180 degrees using a servo motor and a photoreistor
 #include <Servo.h> 
 int beeper = 12; // this is the pin the beeper is located
 int val; // this will store the analog value
